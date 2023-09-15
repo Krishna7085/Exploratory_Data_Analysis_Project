@@ -1,6 +1,49 @@
-# ds-project-template
+# EDA Assignment - 01
 
-Template for creating ds simple projects
+This project is centered around exploratory data analysis techniques and presentation of results to a client.
+
+## Data
+
+- The King County Housing Data: This dataset contains information about home sales in King County (USA).
+- Find the data in the eda schema database, access it via DBeaver. Please save the csv file in the data folder.
+- Explore the dataset in DBeaver and Join the 2 tables.
+- The description of the column names can be found in the `column_names.md` file.
+
+Created a SQL Database that contains the data. In the [first notebook (Fetching_the_data)](1_Fetching_the_data_eda.ipynb) and follow the steps on how to fetch the data and save it in a csv file.
+
+## Task
+
+1. Create a new repo using this [template](https://github.com/spiced-academy/ds-eda-project-template).
+
+2. Through EDA/statistical analysis above please come up with **AT LEAST 3 insights** regarding the overall data. One should be geographical.
+
+3. In addition also come up with **AT LEAST 3 recommendations** for the client.
+
+## Visualization
+
+Create the visualizations with the libraries:
+
+- matplotlib
+- seaborn
+- plotly and more
+
+
+# My Client
+ Erin Robinson is a Buyer who likes to invest in poor neighbourhoods, buying & selling, costs back + little profit, socially responsible. 
+
+ She wants to buy old houses in the poor neighbourhood (cheap old houses) and wants to renovate them and cut extra costs (costs for only necessary changes) plus she wants to make a little profit after resale, also she wants to be socially responsible. This means her customers would be the one who looks for a lower price from the same neighbourhood.
+
+ 1. **Recommendation and Investment Strategy**:
+   - Based on the analysis, provide specific recommendations to the client, Erin Robinson, regarding which neighborhoods or types of properties to target for investment.
+   - Develop an investment strategy that aligns with Erin's goals of socially responsible investing in poor neighbourhoods with the aim of making a small profit.
+
+2. **Visualization and Presentation**:
+   - Create compelling visualizations to support the findings and recommendations. Visual aids can be very effective in conveying information to non-technical clients.
+   - Prepare a presentation summarizing the key findings and recommendations. Use clear and concise language to explain the insights and the reasoning behind the recommendations.
+
+By conducting these analyses and presenting the findings in a clear and actionable way, one can provide valuable insights and recommendations to Erin Robinson, helping her make informed decisions about her real estate investments in King County.
+
+
 
 ## Requirements
 
@@ -47,7 +90,7 @@ brew install postgresql
 
 In order to install the environment you can use the following commands:
 
-```
+```bash
 pyenv local 3.11.3
 python -m venv .venv
 source .venv/bin/activate
