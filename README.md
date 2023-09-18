@@ -30,6 +30,7 @@ Create the visualizations with the libraries:
 
 # My Client
  Erin Robinson is a Buyer who likes to invest in poor neighbourhoods, buying & selling, costs back + little profit, socially responsible. 
+  [EDA Project](./EDA Project.pdf)
 
  She wants to buy old houses in the poor neighbourhood (cheap old houses) and wants to renovate them and cut extra costs (costs for only necessary changes) plus she wants to make a little profit after resale, also she wants to be socially responsible. This means her customers would be the one who looks for a lower price from the same neighbourhood.
 
